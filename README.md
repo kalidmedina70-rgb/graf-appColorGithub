@@ -2,5 +2,5 @@
 ## Ing. Sistemas Computacionales
 ## Graficación
 ### 1.2 Publicación colaborativa de códigos fuente
-### Monroy Martinez Rodrigo
+### Medina Sanchez Abdul Kalid
 ### Fecha Entrega: 1 septiembre 2025
