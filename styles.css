@@ -1,0 +1,78 @@
+/* Fondo general con gradiente */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f4ff, #e3ffe7);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Títulos */
+h1, h2 {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+/* Tarjetas modernas */
+.card {
+  border: none;
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Vista previa del color */
+.preview {
+  width: 100%;
+  height: 220px;
+  border-radius: 1rem;
+  border: 2px solid #dee2e6;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Botones */
+button {
+  border-radius: 999px !important;
+  padding: 0.5rem 1.25rem !important;
+  font-weight: 500;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs */
+input[type="range"] {
+  accent-color: #0d6efd; /* azul Bootstrap */
+}
+
+input[type="number"] {
+  border-radius: 0.75rem;
+}
+
+/* Picker de color */
+input[type="color"] {
+  border-radius: 0.75rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+/* Output de Hex y RGB */
+input[readonly] {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  border-radius: 0.75rem;
+}
+
+/* Etiquetas */
+.form-label {
+  font-weight: 600;
+  color: #495057;
+}
+
